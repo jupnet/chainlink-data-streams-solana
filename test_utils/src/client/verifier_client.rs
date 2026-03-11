@@ -221,7 +221,6 @@ impl VerifierClient {
         let permissioned_context = VerifyContext {
             verifier_account: self.data_account,
             user: user.pubkey(),
-            access_controller: self.access_controller_data_account.unwrap(),
             config_account: override_config_account
                 .unwrap_or(self.compute_report_config_pda(&signed_report)),
         };

@@ -6,7 +6,7 @@ use static_assertions::const_assert;
 
 use arrayvec::arrayvec;
 
-declare_id!("EjVftbXwfRZoZDzJ6eHArCqiBiPHBLq5zajRqMiHGH1A");
+declare_id!("F511wq4GHkbFAa7hG7a8MuBnA5j1Bk1SmXGsGXpjsxxf");
 
 #[error_code]
 pub enum ErrorCode {

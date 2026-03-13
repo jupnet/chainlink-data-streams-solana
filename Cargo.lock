@@ -6116,7 +6116,12 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "test_utils",
+ "verifier-program-id",
 ]
+
+[[package]]
+name = "verifier-program-id"
+version = "0.1.0"
 
 [[package]]
 name = "version_check"

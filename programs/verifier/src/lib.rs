@@ -22,7 +22,7 @@ use hex::encode as hex_encode;
 use std::borrow::BorrowMut;
 use std::cell::Ref;
 
-declare_id!("7KhNwmEmfhBjQwnD6QTi5ek8jFZ8WrP8KMYWmPQgYUn9");
+verifier_program_id::inject_verifier_program_id!(declare_id);
 
 #[program]
 pub mod verifier {

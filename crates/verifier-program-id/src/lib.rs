@@ -1,7 +1,7 @@
 #[macro_export]
 macro_rules! inject_verifier_program_id {
     ($macro:ident) => {
-        $macro! {"7KhNwmEmfhBjQwnD6QTi5ek8jFZ8WrP8KMYWmPQgYUn9"}
+        $macro! {"9hFjbrru29w1WfvvPsNgorDZKAWZRstLXJhG7tQe4bWN"}
     };
 }
 
@@ -14,5 +14,5 @@ macro_rules! identity {
 pub const VERIFIER_PROGRAM_ID: &str = inject_verifier_program_id!(identity);
 
 pub mod solana {
-    pub const VERIFIER_PROGRAM_ID: &str = "Gt9S41PtjR58CbG9JhJ3J6vxesqrNAswbWYbLNTMZA3c";
+    pub const VERIFIER_PROGRAM_ID: &str = "9hFjbrru29w1WfvvPsNgorDZKAWZRstLXJhG7tQe4bWN";
 }

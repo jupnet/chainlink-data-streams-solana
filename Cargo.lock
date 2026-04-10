@@ -6122,10 +6122,6 @@ dependencies = [
 [[package]]
 name = "verifier-program-id"
 version = "0.1.0"
-dependencies = [
- "serde_json",
- "solana-sdk",
-]
 
 [[package]]
 name = "version_check"

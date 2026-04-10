@@ -1,6 +1,6 @@
 # Verifier Program
 
-Staging Deployed Address: `9hFjbrru29w1WfvvPsNgorDZKAWZRstLXJhG7tQe4bWN`
+Deployed Address: `Gt9S41PtjR58CbG9JhJ3J6vxesqrNAswbWYbLNTMZA3c`
 
 ## Integrating with the Verifier Program
 There is a lightweight Rust SDK for creating Solana program instructions to verify Chainlink Data Streams reports, supporting both on-chain and off-chain usage.
